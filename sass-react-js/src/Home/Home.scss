@@ -1,0 +1,23 @@
+@import 'variable.scss';
+
+.container{
+    text-align: center;
+    h3{
+        color: $orangeColor;
+    }
+    h5{
+        color: green;
+    }
+    button{
+        border: none;
+        padding: 10px;
+    }
+    @mixin p{
+        color: $orangeColor;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+h3{
+    color: rgb(117, 62, 62)
+}
